@@ -13,11 +13,11 @@ class SiteNavbar extends HTMLElement {
 
   renderNavbar() {
     this.innerHTML = `
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="/main.html">
-          <img src="/images/image.jpg" height="36">
-          ElmoHikes
+          <img src="/images/image.png" height="36">
+          My Hikes
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
